@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <met charst="utf-8">
+    <title>MOBACON</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>fadlil</h1>
+    <form method="post" action="/admin/reset" enctype="www/x-form-urlencoded">
+        <input type="submit" value="reset" />
+    </form>
+
+    <form method="post" action="/user/register">
+        <input type=text name="username" />
+        <input type=text name="password" />
+        <input type=submit value="register" />
+    </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+---
+abstract: unknown
+author:
+  - 'Some Person <person@example.com>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.96, CPAN::Meta::Converter version 2.140640'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: liteAmon
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Amon2: '6.02'
+  Amon2::Lite: '0.12'
+  Plack::Session: '0.14'
+  Text::Xslate: '1.5006'
+  perl: '5.008001'
+version: '0.12'

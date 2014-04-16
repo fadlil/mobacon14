@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS userid (
+	id		INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	username 	VARCHAR(32),
+	pass 		text NOT NULL,
+	apikey		text NOT NULL
+);
